@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="index.css">
+    <title>Create Product</title>
+</head>
+<body>
+  <div class="header">
+    
+  </div>
+  <form class="form">
+    <h2>CREATE PRODUCT</h2>
+    <div>
+      <label for="name">Name</label><br>
+      <input  type="text" name="name"  id="name"/>
+    </div><br>
+    <div>
+      <label for="category">Category</label><br>
+      <select name="category">
+        <option value="Dam'sKicks"> Dam's Kicks</option><br>
+      </select>
+    </div><br>
+    <div>
+      <label for="price">Price</label><br>
+      <input type="text" name="price" id="price" />
+    </div><br>
+    <div>
+      <label for="quantity">Quantity</label><br>
+      <input type="number" name="quantity" id="quantity" />
+    </div><br>
+    <div>
+      <label for="image">Image</label><br>
+      <input type="file" name="image"  id="image"/>
+    </div><br>
+    <div>
+      <label for="description">Description</label><br>
+      <textarea id="description" name="description"></textarea >
+    </div><br>
+    <button id="button">Submit</button>
+  </form>
+  <p id="error-msg" style="display:none; color:red;">Please fill out all fields.</p>
+
+
+
+
+      <script src="Home.js"></script>
+     <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Home Page</title>
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <p><button  id="sidemenu"><img src="./images/list.svg" alt=""></button>
+        <div id="sidebar">
+          <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="Shop.html">Shop   </a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="CreateProduct.html">Create Product</a></li>
+            <li><a href="CreateUser.html">Create User</a></li>
+          </ul>
+        </div>
+      </p>
+     <button> <img src="./images/person-fill.svg"alt=""></button>
+    </div>
+ </nav>
+ <main class="main">
+   <div class="Dashboard">
+      <div class="TotalProducts">
+        <div class="container">
+          <img src="./images/calculator.svg" alt="">
+          <h2>Total Products</h2>
+        </div>
+        <h1 id="totalProducts"></h1>
+      </div>
+      <div class="TotalUsers">
+        <div class="container">
+          <img src="./images/person-add.svg" alt="">
+          <h2>Total Users</h2>
+        </div>
+        <h1>....</h1>
+      </div>
+      <div class="TotalPrdtcart">
+        <div class="container">
+          <img src="./images/cart-plus.svg" alt="">
+          <h2>Total Products in cart</h2>
+        </div>
+        <h1>....</h1>
+      </div>
+    </div>
+
+  <table id="customers">
+  <thead>
+    <tr>
+    <th>id</th>
+    <th>Name</th>
+    <th>Category</th>
+    <th>Price</th>
+    <th>Quantity</th>
+    <th>Description</th>
+    <th>Edit</th>
+    <th>Delete</th>
+  </tr>  
+  </thead>
+  <tbody id="table_body">
+
+
+  </tbody>
+</table>
+</main> 
+
+
+
+
+
+
+
+
+
+<script src="Home.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

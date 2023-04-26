@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Create User</title>
+</head>
+<body>
+    <form class="form_a">
+      <h1>CREATE USER</h1>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="Phone">Phone Number:</label>
+        <input type="number" id="phone" name="phone" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image" required>
+
+       <label for="Password">Password:</label>
+        <input type="password" id="Password" name="Password" required>
+        
+        <button id="User">Create User</button>
+      </form>
+      
+      <div id="user-list">
+        <!-- User data will be displayed here -->
+      </div>
+      
+    <script src="Home.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
